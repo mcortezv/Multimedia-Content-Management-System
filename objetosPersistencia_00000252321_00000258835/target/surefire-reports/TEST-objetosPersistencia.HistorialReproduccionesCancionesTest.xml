@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.032" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\mdjes\Downloads\proyecto04_00000252321_00000258835\objetosPersistencia_00000252321_00000258835\target\test-classes;C:\Users\mdjes\Downloads\proyecto04_00000252321_00000258835\objetosPersistencia_00000252321_00000258835\target\classes;C:\Users\mdjes\.m2\repository\objetosNegocio\spotifyObjetosNegocio_00000252321_00000258835\1.0\spotifyObjetosNegocio_00000252321_00000258835-1.0.jar;C:\Users\mdjes\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\mdjes\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mdjes\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\mdjes\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mdjes\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\mdjes\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\mdjes\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\mdjes\.m2\repository\objetoServicio\objetoServicio_00000252321_00000258835\1.0\objetoServicio_00000252321_00000258835-1.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Hermosillo"/>
+    <property name="user.country.format" value="MX"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\mdjes\AppData\Local\Temp\surefire10496982606777988740\surefirebooter-20241201151805424_3.jar C:\Users\mdjes\AppData\Local\Temp\surefire10496982606777988740 2024-12-01T15-18-05_321-jvmRun1 surefire-20241201151805424_1tmp surefire_0-20241201151805424_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\mdjes\Downloads\proyecto04_00000252321_00000258835\objetosPersistencia_00000252321_00000258835\target\test-classes;C:\Users\mdjes\Downloads\proyecto04_00000252321_00000258835\objetosPersistencia_00000252321_00000258835\target\classes;C:\Users\mdjes\.m2\repository\objetosNegocio\spotifyObjetosNegocio_00000252321_00000258835\1.0\spotifyObjetosNegocio_00000252321_00000258835-1.0.jar;C:\Users\mdjes\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\mdjes\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mdjes\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\mdjes\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mdjes\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\mdjes\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\mdjes\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\mdjes\.m2\repository\objetoServicio\objetoServicio_00000252321_00000258835\1.0\objetoServicio_00000252321_00000258835-1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mdjes"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\mdjes\Downloads\proyecto04_00000252321_00000258835\objetosPersistencia_00000252321_00000258835"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\mdjes\AppData\Local\Temp\surefire10496982606777988740\surefirebooter-20241201151805424_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23+37-2369"/>
+    <property name="user.name" value="mdjes"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-23\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\mdjes\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mdjes\AppData\Local\Temp\"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="C:\Users\mdjes\Downloads\proyecto04_00000252321_00000258835\objetosPersistencia_00000252321_00000258835"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="es"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python 3.12.1\Scripts\;C:\Python 3.12.1\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Apktool;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Java\apache-maven-3.9.9\bin;C:\Users\mdjes\AppData\Local\Microsoft\WindowsApps;C:\Users\mdjes\AppData\Local\spicetify;C:\Users\mdjes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mdjes\AppData\Local\Programs\Ollama;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\bin;;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Java\apache-maven-3.9.9\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23+37-2369"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testActualizarReproduccionCancionCompletaLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.002"/>
+  <testcase name="testAgregarReproduccionCancionCancionNullLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testAgregarReproduccionCancionFechaMasUnMesAntiguedadLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testAgregarReproduccionCancionFechaDespuesDeLaActualLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testValidarReproduccionCancionFormatoClaveInvalidoLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testValidarReproduccionCancionFechaMasUnMesAntiguedadLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testConsultarReproduccionCancionPorClaveFuncionaCorrectamente" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testAgregarReproduccionCancionFuncionaCorrectamente" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testValidarReproduccionCancionClaveNullLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testActualizarReproduccionCancionInexistenteLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testConsultarReproduccionesCancionesPorPeriodoFuncionaCorrectamente" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testContadorReproduccionesCompletasFuncionaCorrectamente" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.0"/>
+  <testcase name="testAgregarReproduccionCancionClaveNullLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testActualizarReproduccionCancionFuncionaCorrectamente" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testValidarReproduccionCancionFechaDespuesDeLaActualLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testConsultarReproduccionesCancionesPorClaveCancionFuncionaCorrectamente" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testValidarReproduccionCancionCancionNullLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testAgregarReproduccionCancionAtributoCompletaNullLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.0"/>
+  <testcase name="testConsultarReproduccionesCancionesVacioLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.0"/>
+  <testcase name="testConsultarReproduccionesCancionesPorAutorFuncionaCorrectamente" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testLimiteDiarioReproduccionesCompletasLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.003"/>
+  <testcase name="testValidarReproduccionCancionFechaNullLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testAgregarReproduccionCancionFechaNullLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.0"/>
+  <testcase name="testAgregarReproduccionCancionFormatoClaveInvalidoLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.0"/>
+  <testcase name="testConsultarReproduccionesCancionesFuncionaCorrectamente" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.001"/>
+  <testcase name="testValidarReproduccionCancionAtributoCompletaNullLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.0"/>
+  <testcase name="testAgregarReproduccionCancionExistenteLanzaExcepcion" classname="objetosPersistencia.HistorialReproduccionesCancionesTest" time="0.0"/>
+</testsuite>

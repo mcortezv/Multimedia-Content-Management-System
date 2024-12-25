@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"objetosNegocio"},{"l":"objetosNegocio.exceptions"}];updateSearchResults();
