@@ -1,5 +1,7 @@
 # Multimedia Content Management System
 
+## Description
+
 This project is a robust system designed to manage a catalog of songs and other multimedia content, with CRUD (Create, Read, Update, Delete) operations and custom validations. It is built with a modular architecture to ensure scalability and maintainability. Each module has its own functionality and includes unit tests to ensure code quality.
 
 ## Table of Contents
