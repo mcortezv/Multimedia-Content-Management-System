@@ -1,13 +1,13 @@
-# Multimedia Content Management System
+# **Multimedia Content Management System**
 
-This project is a robust system designed to manage a catalog of songs and other multimedia content, with CRUD (Create, Read, Update, Delete) operations and custom validations. It is built with a modular architecture to ensure scalability and maintainability. Each module has its own functionality and includes unit tests to ensure code quality.
+This project is a robust system designed to manage a catalog of songs and other multimedia content, with CRUD (Create, Read, Update, Delete) operations and custom validations. It is built with a modular architecture to ensure scalability and maintainability. Each module has its own functionality and includes unit tests to ensure code quality. [Versión Español](./README.es.md)
 
-## Table of Contents
+## **Table of Contents**
 - [Project Structure](#project-structure)
 - [Module Description](#module-description)
 - [License](#license)
 
-## Project Structure
+## **Project Structure**
 
 ```
 |-- Multimedia Content Managment System/
@@ -46,7 +46,7 @@ This project is a robust system designed to manage a catalog of songs and other 
         |-- SistemaSpotify.java
 ```
 
-## Module Description
+## **Module Description**
 
 ### **objetoServicio**
 Utility services module:
@@ -80,5 +80,5 @@ Main entry point of the system:
 - `SistemaSpotify`: Main class that runs the user interface.
    
 
-## License
+## **License**
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for more details.
