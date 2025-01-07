@@ -9,7 +9,8 @@ Este proyecto es un sistema robusto diseñado para gestionar un catálogo de can
 
 ## **Estructura del Proyecto**
 
-|-- Sistema de Gestión de Contenido Multimedia/
+```
+|-- Multimedia Content Managment System/
     |-- objetoServicio/
         |-- Fecha.java
         |-- Periodo.java
@@ -20,7 +21,7 @@ Este proyecto es un sistema robusto diseñado para gestionar un catálogo de can
         |-- Reproduccion.java
         |-- ReproduccionCancion.java
         |-- ReproduccionEpisodio.java
-        |-- excepciones/
+        |-- exceptions/
             |-- AnioCreacionInvalidoException
             |-- DuracionExcedeMaximoPermitidoException
     |-- pruebas/
@@ -29,12 +30,12 @@ Este proyecto es un sistema robusto diseñado para gestionar un catálogo de can
         |-- CatalogoCanciones.java
         |-- CatalogoContenidos.java
         |-- HistorialReproduccionesCanciones.java
-        |-- excepciones/
+        |-- exceptions/
             |-- Genericas/
             |-- CatalogoCanciones/
             |-- CatalogoContenidos/
             |-- HistorialReproduccionesCanciones/    
-        |-- pruebas/
+        |-- tests/
             |-- CatalogoCancionesTest.java
             |-- CatalogoContenidosTest.java
             |-- HistorialReproduccionesCancionesTest.java
@@ -43,6 +44,7 @@ Este proyecto es un sistema robusto diseñado para gestionar un catálogo de can
         |-- IFachadaPersistencia.java
         |-- MenuPrincipal.java
         |-- SistemaSpotify.java
+```
 
 ## **Descripción de Módulos**
 
